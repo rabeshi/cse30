@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <!-- META -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="uisual" content="Made with Uisual (uisual.com)">
+    <meta name="author" content="#">
+    <meta name="description" content="#">
+    <meta name="referrer" content="unsafe-url">
+    <meta name="robots" content="index, follow">
+    <!-- SPEED -->
+    <link rel="preconnect" href="https://res.cloudinary.com/">
+    <link rel="dns-prefetch" href="https://res.cloudinary.com/">
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/">
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com/">
+    <!-- LINK -->
+    <link rel="me" href="#">
+    <link rel="canonical" href="#">
+    <link rel="icon" type="image/png" href="#" sizes="48x48">
+    <!-- PERFORMANCE -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&amp;display=swap">
+    <link rel="preload" as="style" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- TITLE -->
+    <title>CSE 30: Computer Organization and Systems Programming</title>
+  </head>
+  <body>
+    <header role="banner" class="ui-section-header">
+      <div class="ui-layout-container">
+        <div class="ui-section-header__layout ui-layout-flex">
+          <!-- LOGO -->
+          <a href="index.html" role="link" aria-label="#">
+            <img width='250px' height='100px' src='assets/logo.png' alt="CSE 2022">
+          </a>
+          <!-- MENU -->
+          <div style="text-align: right; font-weight: bold;">
+            <ul class="navbar">
+              <li class="dropdown">
+                  <a href="index.html" class="dropbtn">Home</a>                  
+              </li>
+              <li class="dropdown">
+                  <a href="courses.html" class="dropbtn">Course</a>                  
+              </li>
+              <li class="dropdown">
+                  <a href="integrity.html" class="dropbtn">Integrity</a> 
+              </li>
+              <li class="dropdown">
+                  <a href="help.html" class="dropbtn">Help</a>                
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    
+    <main role="main">
+      <!-- <section class="ui-section-hero">
+        <div class="ui-layout-column-center" >
+          <h3><mark><a href="https://cscw.acm.org/2022/submit/papers.html">Call for Papers for CSCW 2022 is due on July 15, 2021. Click more here</a></mark></h3>
+        </div>
+      </section> -->
+      <section class="ui-section-hero">
+        <div class="ui-layout-container">
+          <!-- COPYWRITING -->
+          <div class="ui-layout-column-center" style='text-align:left;'>
+          
+          </div>
+          <!-- IMAGE -->
+        <!--   <img src="assets/taiwanbw.png" loading="lazy" alt="taiwan skyline" class="ui-section-hero--image">-->
+		  <img src="assets/banner.png">
+
+        </div>
+		
+      </section>
+
+
+      <section class="ui-section-customer">
+
+      </section>
+
+      <section class="ui-section-hero">
+        <div class="ui-layout-container">
+        </div>
+      </section>
+      <section class="ui-section-feature">
+        <div class="ui-layout-container">
+		 	   <h1>Welcome!</h1>
+          <div>
+              <!-- <h2>About</h2> -->
+              <p>You’ve been writing programs for the past year (or more) and you have become more capable of analyzing the efficiency of programs (CSE 12 and 21) and designing more advanced programs (CSE 12). However, the computer likely remains nearly a black box for you. How does the code you write get converted into instructions the machine can interpret? What do those instructions look like and how are they managed? Moreover, how does the computer execute those instructions? This is the first course in a series of courses in our program that aims to demystify computing so you become more capable and knowledgeable computer scientists. <br><br> In CSE 30, you’ll learn about how low-level programming works to prepare you for later courses in our curriculum that heavily leverage this knowledge, including CSE 100, CSE 120, CSE 131, CSE 140, CSE 141, and CSE 142. Ultimately, the ideas you’ll learn in this class are critical for your success as a computer scientist and we hope you look forward to diving deeper into systems this quarter. <br><br> </p>
+          </div>
+		    <h3>What does this course offer to you <br></h3>
+			 <div>
+			 <p>This course is designed to convey three critical ideas in computing to you. First, you’ve spent most of your time programming in Java and while Java (or Python) makes programming easier for you, it hides away important details of how programs really work that impact their performance (namely how pointers function and how memory is managed). We’ll learn these ideas in depth in the programming language C. <br><br>
+
+			Second, even statements in C can’t run directly on actual hardware. They need to be compiled into instructions that can run on a processor/computer system. We’ll be learning about one of the top two assembly programming languages used today, ARM. ARM is used in most mobile processors today as well as some laptops (latest Apple Macs) and is friendly to those learning how to program in assembly. Although you will likely not program much in assembly in your career, you will almost certainly need to know how to read it. Moreover, if you have any interest in more advanced topics in computer systems, computer architecture, or computer security, you’ll need to know assembly very well. <br><br>
+
+			Third, assembly instructions translate nearly directly into machine instructions that are executed by computer processors. As a computer scientist or computer engineer you should have a basic understanding of how these instructions execute. This course will give you a preview of digital logic and processor design to set you up for success in CSE 140, CSE 141, and CSE 142. </p>
+		
+		  <h3>How, exactly, are you going to accomplish this? <br></h3>
+		  <p>In lecture, you will learn about the concepts underlying computer systems. You’ll then have opportunities to practice and cement this understanding by programming in C and assembly and by completing conceptual homework.</p>
+		  
+		  <h3>How will you (and the professor) know if you are making progress in your learning?<br></h3>
+		  <p>The course offers you numerous opportunities for feedback on whether you are learning what you need to know. Learning about computing isn’t done by just reading about it, so you’ll be asked to solve problems related to the class in programming projects and homeworks. Beyond learning the topics of this course, I care a lot about you developing your general skills in technical analysis andcommunication. So throughout the class, you will be able to get practice and feedback in the following ways:</p>
+		  <ul>
+		  <li>(Optional) <b>Reading quizzes:</b> Before the lecture you will often complete a reading from the text. You can take these brief online reading quizzes to check that you got the key ideas from the reading.</li>
+		  <li><b>Homework and Programming Assignments:</b> This is your opportunity to see if you understand the course material. Try your best to work through the homework and programming assignments entirely on your own, but feel free to get help from the tutors, TAs, or professor. For homeworks, be sure to review solutions to identify areas of strengths and weaknesses. For programming assignments, we strongly encourage working until you pass the majority of test cases and to create your own test cases. Even if you don’t complete the programming assignment on time, we’ll give you an opportunity to keep learning by testing your code in an assignment on gradescope (that does not impact your grade).</li>
+		  <li><b>Peer Instruction Questions:</b> You will have an opportunity to deepen your understanding of computer organization concepts in lecture while developing technical communication skills by discussing challenging questions in a team of three to four students. Feel free to ask questions of TAs, tutors, and/or the professor during the discussion time.</li>
+		  </ul>
+		
+		  <p>We encourage you to make the most of this feedback in order to ensure that you perform well on the course midterm and final!</p>
+		</div>
+        </div>
+      </section>
+
+      </main>
+    
+      <footer role="contentinfo" class="ui-section-footer">
+        <div class="ui-layout-container">
+          <div class="ui-section-footer__layout ui-layout-flex">          
+            <nav role="navigation" class="ui-section-footer--nav ui-section-footer--menu ui-layout-flex">
+              <p class="ui-section-footer--copyright ui-text-note"><small>Winter 2022</small></p>
+            </nav>
+            
+          </div>
+        </div>
+      </footer>
+  </body>
+
+</html>
